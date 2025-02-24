@@ -1,0 +1,40 @@
+
+.foimage{
+    background-image: url(kepek/IFA_W50_JM_1.jpg);
+    background-size:cover;
+    height:100vh;
+}
+.foszoveg{
+    text-align:center;
+    background-image: linear-gradient(lightblue, blue);
+    color:white;
+}
+*{box-sizing: border-box;}
+.topnav{
+    overflow:hidden;
+    background-color: lightblue;}
+.topnav a{
+    float:left;
+    display:block;
+    color:green;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration: none;
+
+}
+.topnav a:hover{
+    background-color: blue;
+    color:white;
+}
+
+@media screen and (max-width: 900px){
+    body{
+       
+        
+    }
+    .topnav a{
+        float:none;
+        width:100%;
+    }
+    }
+    
